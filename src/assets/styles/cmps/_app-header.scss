@@ -1,0 +1,36 @@
+.app-header {
+
+    text-transform: capitalize;
+    height: 64px;
+    padding: 0 16px;
+    display: flex;
+    grid-template-columns: repeat(auto-fit, 100px);
+    align-items: center;
+    max-width: 100%;
+    overflow: hidden;
+
+    img {
+        margin: 0 8px;
+        width: 120px;
+
+    }
+
+    nav {
+        margin-left: 16px;
+        flex-grow: 1;
+        display: flex;
+        gap: 1rem;
+
+    }
+
+    form {
+        display: flex;
+        gap: 0.5rem;
+
+        input,
+        button {
+            width: 100px;
+        }
+
+    }
+}

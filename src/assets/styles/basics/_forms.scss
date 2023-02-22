@@ -1,0 +1,35 @@
+button {
+    border: 0;
+    background-color: $clr1;
+    border-radius: 5px;
+    color: whitesmoke;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+form>* {
+    border-radius: 5px;
+    border: 0.2px solid gray;
+    outline: unset;
+    font-size: 14px;
+    margin: 10px 0px;
+    text-transform: capitalize;
+
+    &:focus-visible {
+        outline: 1px $clr1 solid;
+
+    }
+}
+
+.btn-link {
+    border: 0;
+    background-color: transparent;
+    text-decoration: underline;
+    transition: .5s;
+}
+
+.btn-link:hover {
+    background-color: $clr1;
+    transform: scale(1.1);
+}

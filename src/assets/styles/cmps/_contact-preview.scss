@@ -1,0 +1,23 @@
+.contact-preview {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-transform: capitalize;
+    padding: 0 1rem;
+
+    img {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    .actions {
+        flex-grow: 1;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    &:hover {
+        outline: 2px solid $clr1;
+    }
+}

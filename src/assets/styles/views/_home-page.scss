@@ -1,0 +1,25 @@
+.home-page {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .hero-details {
+        padding: 2rem;
+
+        h1 {
+            font-size: 42px;
+        }
+
+        button {
+            padding: 12px 24px;
+            line-height: 24px;
+            min-width: 80px;
+        }
+
+    }
+
+    picture {
+
+        width: 100%;
+    }
+}
